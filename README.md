@@ -10,7 +10,7 @@
 
 ## Steps to reproduce
 
-- Go to: http://127.0.0.1:8000/admin/ (port might be different)
-- In posts create a new plain_text entry: 123 (leave rich_text blank) ()
+- Go to: `http://127.0.0.1:8000/admin/` (port might be different)
+- In posts create a new plain_text entry: 123 (leave rich_text blank)
 - In post create a new plain_text that contains any string character such as '123a'
-- See: app/Filament/Resources/PostResource/Pages/EditPost.php for code. Uncomment each individual part between `/* ... */` one at a time and comment out the ones before.
+- See: `app/Filament/Resources/PostResource/Pages/EditPost.php` for code. Uncomment each individual part between `/* ... */` one at a time and comment out the ones before.
